@@ -85,7 +85,7 @@
 
  The instruction cycle consists of 6 sequential *phases*, each phase requiring zero or more steps. 
 
-![image-20210712003425675](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210712003425675.png) 
+![image-20210712003425675](Chapter%204The%20von%20Neumann%20Model.assets/image-20210712003425675.png) 
 
 ####  4.3.2.1 FETCH
 

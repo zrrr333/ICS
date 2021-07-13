@@ -2,7 +2,7 @@
 
 ## 4.1 Basic Components
 
- ![image-20210711235112504](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711235112504.png)
+ ![image-20210711235112504](Chapter%204The%20von%20Neumann%20Model.assets/image-20210711235112504.png)
 
 
 
@@ -34,7 +34,7 @@
 
 ## 4.2 The LC-3: An Example von Neumann Machine
 
-![image-20210712001643296](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210712001643296.png) 
+![image-20210712001643296](Chapter%204The%20von%20Neumann%20Model.assets/image-20210712001643296.png) 
 
 - Filled-in arrowheads : data elements 
 
@@ -71,13 +71,13 @@
 
   - Bits [11:0] where the operands are
 
-  - ADD ![image-20210712003036553](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210712003036553.png)
+  - ADD ![image-20210712003036553](Chapter%204The%20von%20Neumann%20Model.assets/image-20210712003036553.png)
 
     
 
-  - AND ![image-20210712003120188](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210712003120188.png)
+  - AND ![image-20210712003120188](Chapter%204The%20von%20Neumann%20Model.assets/image-20210712003120188.png)
 
-  - LD ![image-20210712003239932](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210712003239932.png)
+  - LD ![image-20210712003239932](Chapter%204The%20von%20Neumann%20Model.assets/image-20210712003239932.png)
 
 
 
@@ -116,7 +116,7 @@ Output line asserted is the one corresponding to the opcode at the input.
 ### 4.3.3 Changing the Sequence of Execution
 
 - Control instructions : loading the PC during the **EXECUTE** phase, wipes out the incremented PC that was loaded during the **FETCH** phase. 
-- BR: ![image-20210712151413003](Chapter%204The%20von%20Neumann%20Model.assets/image-20210712151413003.png)
+- BR: ![image-20210712151413003](Chapter%204The%20von%20Neumann%20Model.assets/image-20210712151413003-1626188260504.png)
 - condition code： NZP
 -  <img src="Chapter%204The%20von%20Neumann%20Model.assets/image-20210713123946312.png" alt="image-20210713123946312" style="zoom: 67%;" />
 

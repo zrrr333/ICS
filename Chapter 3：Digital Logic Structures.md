@@ -6,11 +6,11 @@
 
 - 分类：P型与N型
 
-  - N型：![image-20210711231050789](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711231050789.png)![image-20210711231350007](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711231350007.png)
+  - N型：![image-20210711231050789](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711231050789.png)![image-20210711231350007](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711231350007.png)
 
   - 性质：给gate提供1.2V电压，Drain和Source通路；给gate提供0V电压，Drain和Source断路
 
-  - P型：与N型相反![image-20210711231515013](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711231515013.png)
+  - P型：与N型相反![image-20210711231515013](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711231515013.png)
 
     
 
@@ -18,19 +18,19 @@
 
 3.2.1 The NOT Gate (Inverter)
 
-![image-20210711231757546](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711231757546.png) 
+![image-20210711231757546](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711231757546.png) 
 
 
 
 3.2.2 OR and NOR Gates
 
-![image-20210711231911586](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711231911586.png) 
+![image-20210711231911586](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711231911586-1626188982652.png) 
 
-![image-20210711231933113](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711231933113.png) 
+![image-20210711231933113](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711231933113.png) 
 
 3.2.3 Why We Can’t Simply Connect P-Type to Ground
 
-![image-20210711232326743](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711232326743.png) 
+![image-20210711232326743](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711232326743.png) 
 
 晶体管电气特性导致，有0.5V的传输电压
 
@@ -38,15 +38,15 @@
 
 3.2.4 AND and NAND Gates
 
-![image-20210711232524137](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711232524137.png) 
+![image-20210711232524137](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711232524137.png) 
 
-![image-20210711232721473](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711232721473.png) 
+![image-20210711232721473](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711232721473.png) 
 
 
 
 3.2.5 Gates with More Than Two Inputs
 
- ![image-20210711232754863](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711232754863.png)
+ ![image-20210711232754863](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711232754863.png)
 
 
 
@@ -63,7 +63,7 @@
 
 3.3.1 Decoder
 
-![image-20210711233325413](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711233325413.png) 
+![image-20210711233325413](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711233325413.png) 
 
 - have $n$ inputs and $2^n$ outputs.
 - exactly **one** of its outputs is 1 and all the rest are 0s：**assert**
@@ -73,9 +73,9 @@
 
 3.3.2 Mux
 
-![image-20210711233918955](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711233918955.png) 
+![image-20210711233918955](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711233918955.png) 
 
-![image-20210711233937287](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711233937287.png) 
+![image-20210711233937287](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711233937287.png) 
 
 -  $2^n$inputs and *n* select lines
 -  The function of a mux is to select one of the inputs and connect it to the output.
@@ -84,11 +84,11 @@
 
 3.3.3 A One-Bit Adder (a.k.a. a Full Adder)
 
-![image-20210711234136773](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711234136773.png) 
+![image-20210711234136773](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711234136773.png) 
 
- ![image-20210711234147956](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711234147956.png)
+ ![image-20210711234147956](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711234147956.png)
 
- ![image-20210711234243363](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711234243363.png)
+ ![image-20210711234243363](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711234243363.png)
 
 
 
@@ -96,7 +96,7 @@
 
 3.3.4 The Programmable Logic Array (PLA)
 
-![image-20210711234314726](C:%5CUsers%5Chuawei%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210711234314726.png) 
+![image-20210711234314726](Chapter%203%EF%BC%9ADigital%20Logic%20Structures.assets/image-20210711234314726.png) 
 
 - program the connections from AND gate outputs to OR gate inputs to implement our desired **logic functions.**
 
